@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>component library</title>
+
+    <!-- CSS is linked here! -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -24,36 +27,36 @@
 <h2>@container</h2>
 
 <h3>fluid container</h3>
-<div> this is fluid container which will go till the length of the website </div>
+<div class="container container-fluid"> this is fluid container which will go till the length of the website </div>
 
 <h3>centre container</h3>
-<div> this is center container which will go till the specified width</div>
+<div class="container container-centre"> this is center container which will go till the specified width</div>
 
 <hr>
 
 <h2>@links</h2>
-<a href="/">Primary link</a>
-<a href="/">Secondary Link</a>
+<a class="link link-primary" href="/">Primary link</a>
+<a class="link link-secondary" href="/">Secondary Link</a>
 
 <hr>
 
 <h2>@lists</h2>
 <h3>unordered lists</h3>
-<ul>
+<ul class="list-no-bullet">
     <li>item 1</li>
     <li>item 2</li>
     <li>item 3</li>
 </ul>
 
 <h3>inline unordered list</h3>
-<ul>
-    <li>inline list 1</li>
-    <li>inline list 2</li>
-    <li>inline list 3</li>
+<ul class="list-no-bullet">
+    <li class="list-no-bullet-inline">inline list 1</li>
+    <li class="list-no-bullet-inline">inline list 2</li>
+    <li class="list-no-bullet-inline">inline list 3</li>
 </ul>
 
 <h3>reverse ordered list</h3>
-<ol>
+<ol reversed>
     <li>milk</li>
     <li>eggs</li>
     <li>breads</li>
@@ -62,55 +65,67 @@
 <hr>
 
 <h2>@nav</h2>
-<nav>
-    <ul>
-        <li>
-            <a href="">home</a>
+<nav class="navigation container">
+    <div class="iamB">iamBrand</div>
+    <ul class="list-no-bullet nav-pills">
+        <li class="list-no-bullet-inline">
+            <a class="link-nav" href="">home</a>
         </li>
 
-        <li>
-            <a href="">projects</a>
+        <li class="list-no-bullet-inline">
+            <a class="link-nav" href="">projects</a>
         </li>
 
-        <li>
-            <a href="">contact</a>
+        <li class="list-no-bullet-inline">
+            <a class="link-nav" href="">contact</a>
         </li>
     </ul>
+   
 </nav>
 
 <hr>
 
 <h2>@header</h2>
-<header>
-    <img src="images/hero.svg" alt="">
-    <h1>heading inside hero</h1>
+<header class="hero">
+    <img class="hero-img" src="images/hero.svg" alt="">
+    <h1 class="hero-heading">heading inside hero</h1>
 </header>
 
 <hr>
 
 <h2>@section</h2>
-<section>
-    <h3>white-section</h3>
-    <p>This will have white background</p>
+<section class="section white">
+    <div class="container-centre">
+        <h3>white-section</h3>
+    <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+</div>
 </section>
 
-<section>
+<section class="section ow">
+    <div class="container-centre">
     <h3>off-white section</h3>
-    <p>this will have grey background</p>
+    <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+    </div>
 </section>
 
 <hr>
 
 <h2>@footer</h2>
-<footer>
-    <div>
+<footer class="footer">
+    <div class="footer-heading">
         some small heading inside footer
     </div>
 
-    <ul>
-        <li>social 1</li>
-        <li>social 2</li>
-        <li>social 3</li>
+    <ul class="list-no-bullet">
+        <li class="list-no-bullet-inline">
+            <a class="link link-primary" href="">social 1</a>
+        </li>
+        <li class="list-no-bullet-inline">
+            <a class="link link-primary" href="">social 2</a>
+        </li>
+        <li class="list-no-bullet-inline">
+            <a class="link link-primary" href="">social 3</a>
+        </li>
     </ul>
 </footer>
 
