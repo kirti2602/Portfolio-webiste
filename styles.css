@@ -74,7 +74,11 @@ margin: 2rem 0rem;
     color: aliceblue;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    
 }
+/* .fixed{
+    position: fixed;
+} */
 
 /* For links inside nav */
 .link-nav{
@@ -97,6 +101,7 @@ text-decoration: none;
     padding: 2rem;
     padding-bottom: 2rem;
     padding-top: 7rem;
+    position: relative;
 }
 
 .hero-img{
@@ -158,7 +163,7 @@ p{
 }
 
 .copyright{
-    font-size: 2px;
+    font-size: 11px;
 }
 
 /* PROJECTS */
