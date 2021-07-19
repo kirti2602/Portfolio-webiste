@@ -41,10 +41,7 @@ margin: 2rem 0rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
-.link:hover{
-    color: var(--grey-color);
-    font-weight: bold;
-}
+
 .link-primary{
     background-color:var(--primary-color);
     color: white;
