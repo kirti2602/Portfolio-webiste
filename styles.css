@@ -71,11 +71,12 @@ margin: 2rem 0rem;
     color: aliceblue;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    
+    /* overflow: hidden; */
+    /* position: fixed;
+    top: 0;
+    width: 99.9%;
+     */
 }
-/* .fixed{
-    position: fixed;
-} */
 
 /* For links inside nav */
 .link-nav{
