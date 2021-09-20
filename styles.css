@@ -47,11 +47,23 @@ margin: 2rem 0rem;
     color: white;
     margin-top: 1rem;
 }
+
+/* .link-primary:hover{
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+} */
+
 .link-secondary{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     margin-top: 1rem;
 }
+
+/* .link-secondary:hover{
+    background-color: var(--primary-color);
+    color: white;
+} */
 
 /* lists */
 
